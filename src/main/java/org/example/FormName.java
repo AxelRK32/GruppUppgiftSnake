@@ -1,20 +1,22 @@
 package org.example;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.Normalizer;
 
 public class FormName extends JFrame {
     private JPanel MenuTop;
     private JPanel MenuBottomRight;
     private JPanel MenuTopRight;
     private JPanel MenuLeft;
-    private JButton startGameButton;
-    private JButton settingsMapChoiceButton;
+    public JButton startGameButton;
+    public JButton settingsMapChoiceButton;
     private JTextArea Instructions;
     private JPanel PanelName;
     private JButton quitButton;
-    private JButton highScoresButton;
+    public JButton highScoresButton;
 
     FormName() {
         super("Gruppuppgift Snake");
@@ -27,5 +29,6 @@ public class FormName extends JFrame {
                 System.exit(0);
             }
         });
+
     }
 }

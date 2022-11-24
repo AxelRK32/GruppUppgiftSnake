@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Added basic menu and code to start the program in Main">
+    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Added placeholder buttons and added exit functionality to quit button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FormName.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FormName.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1668688409811</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Added placeholder buttons and added exit functionality to quit button">
+      <created>1668689702267</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1668689702267</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created project" />
     <MESSAGE value="Added basic menu and code to start the program in Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic menu and code to start the program in Main" />
+    <MESSAGE value="Added placeholder buttons and added exit functionality to quit button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added placeholder buttons and added exit functionality to quit button" />
   </component>
 </project>
