@@ -1,10 +1,8 @@
 package org.example;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.Normalizer;
 
 public class FormName extends JFrame {
     private JPanel MenuTop;
@@ -23,6 +21,15 @@ public class FormName extends JFrame {
         this.setContentPane(this.PanelName);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
+        highScoresButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                HighScore highScore = new HighScore();
+                setVisible(false);
+                highScore.setVisible(true);
+                highScore.setSize(500, 500);
+            }
+        });
         quitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
