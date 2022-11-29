@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Added placeholder buttons and added exit functionality to quit button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Highscore board" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +45,7 @@
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "150",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "231",
-    "last_opened_file_path": "C:/Users/olive/IdeaProjects/November9SwingPanelPaint",
+    "last_opened_file_path": "C:/Users/olive/IdeaProjects/GruppUppgiftSnake-master",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -104,7 +100,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1668689702267</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Highscore board">
+      <created>1669720608110</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1669720608110</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +124,7 @@
     <MESSAGE value="Created project" />
     <MESSAGE value="Added basic menu and code to start the program in Main" />
     <MESSAGE value="Added placeholder buttons and added exit functionality to quit button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added placeholder buttons and added exit functionality to quit button" />
+    <MESSAGE value="Highscore board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Highscore board" />
   </component>
 </project>
