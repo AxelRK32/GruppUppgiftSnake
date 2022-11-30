@@ -37,5 +37,23 @@ public class FormName extends JFrame {
             }
         });
 
+        startGameButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                GameSnake game = new GameSnake();
+                setVisible(false);
+                game.setVisible(true);
+                game.setSize(500, 500);
+            }
+        });
+        settingsMapChoiceButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Settings settings = new Settings();
+                setVisible(false);
+                settings.setVisible(true);
+                settings.setSize(500, 500);
+            }
+        });
     }
 }
