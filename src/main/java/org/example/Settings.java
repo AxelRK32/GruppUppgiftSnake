@@ -8,18 +8,20 @@ public class Settings extends JFrame{
     private JPanel settings;
     public JButton BackToMenu;
 
-    Settings(){
+    FormName formName;
+
+    Settings(FormName formName){
         super("Settings");
+        this.formName = formName;
         this.setContentPane(this.settings);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
         BackToMenu.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                FormName formName = new FormName();
+                FormName form = formName;
+                form.setVisible(true);
                 dispose();
-                formName.setVisible(true);
-                formName.setSize(500,500);
             }
         });
     }

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Commit to help with merge">
+    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Added Jframes for settings and game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Container.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HighScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HighScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Settings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1669720608110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Added Jframes for settings and game">
+      <created>1669814396286</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1669814396287</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +138,7 @@
     <MESSAGE value="Added basic menu and code to start the program in Main" />
     <MESSAGE value="Added placeholder buttons and added exit functionality to quit button" />
     <MESSAGE value="Highscore board" />
-    <option name="LAST_COMMIT_MESSAGE" value="Highscore board" />
+    <MESSAGE value="Added Jframes for settings and game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Jframes for settings and game" />
   </component>
 </project>

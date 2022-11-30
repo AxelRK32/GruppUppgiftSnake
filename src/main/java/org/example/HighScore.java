@@ -13,8 +13,11 @@ public class HighScore extends JFrame {
     private JLabel Score2;
     private JLabel Score3;
 
-    HighScore() {
+    FormName formName;
+
+    HighScore(FormName formName) {
         super("Gruppuppgift Snake");
+        this.formName = formName;
         this.setContentPane(this.PanelName);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
@@ -22,10 +25,9 @@ public class HighScore extends JFrame {
         backToMenuButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                FormName menu = new FormName();
-                setVisible(false);
-                menu.setVisible(true);
-                menu.setSize(500, 500);
+                FormName form = formName;
+                form.setVisible(true);
+                dispose();
             }
         });
     }

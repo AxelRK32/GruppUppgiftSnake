@@ -11,8 +11,6 @@ public class Main {
         menu.setVisible(true);
         menu.setSize(500,500);
 
-        Container container = new Container();
-        container.menu = menu;
 
     }
 }

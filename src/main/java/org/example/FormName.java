@@ -16,15 +16,18 @@ public class FormName extends JFrame {
     private JButton quitButton;
     public JButton highScoresButton;
 
+    FormName formName;
+
     FormName() {
         super("Gruppuppgift Snake");
+        formName = this;
         this.setContentPane(this.PanelName);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
         highScoresButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                HighScore highScore = new HighScore();
+                HighScore highScore = new HighScore(formName);
                 setVisible(false);
                 highScore.setVisible(true);
                 highScore.setSize(500, 500);
@@ -47,9 +50,10 @@ public class FormName extends JFrame {
             }
         });
         settingsMapChoiceButton.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
-                Settings settings = new Settings();
+                Settings settings = new Settings(formName);
                 setVisible(false);
                 settings.setVisible(true);
                 settings.setSize(500, 500);
