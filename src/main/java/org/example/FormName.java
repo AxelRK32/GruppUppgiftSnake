@@ -27,7 +27,7 @@ public class FormName extends JFrame {
         highScoresButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                HighScore highScore = new HighScore(formName);
+                HighScore highScore = new HighScore(formName, highScoreList);
                 setVisible(false);
                 highScore.setVisible(true);
                 highScore.setSize(500, 500);
@@ -43,7 +43,7 @@ public class FormName extends JFrame {
         startGameButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                GameSnake game = new GameSnake();
+                GameWindow game = new GameWindow();
                 setVisible(false);
                 game.setVisible(true);
                 game.setSize(500, 500);
@@ -59,5 +59,10 @@ public class FormName extends JFrame {
                 settings.setSize(500, 500);
             }
         });
+    }
+
+    HighScoreList highScoreList = new HighScoreList();
+    public void setHighScores(HighScoreList highScoreList) {
+        this.highScoreList = highScoreList;
     }
 }
