@@ -43,7 +43,7 @@ public class FormName extends JFrame {
         startGameButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                GameWindow game = new GameWindow();
+                Window game = new Window();
                 setVisible(false);
                 game.setVisible(true);
                 game.setSize(500, 500);

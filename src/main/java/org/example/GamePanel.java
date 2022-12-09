@@ -3,6 +3,7 @@ package org.example;
         import javax.imageio.ImageIO;
         import javax.swing.*;
         import java.awt.*;
+        import java.awt.event.ActionEvent;
         import java.io.File;
         import java.io.IOException;
         import java.util.ArrayList;
@@ -59,8 +60,8 @@ public class GamePanel extends JPanel implements Runnable {
     }
 
     public void newApple() {
-        appleX = random.nextInt((int) (SCREEN_WIDTH / UNIT_SIZE)) * UNIT_SIZE;
-        appleY = random.nextInt((int) (SCREEN_HEIGHT / UNIT_SIZE)) * UNIT_SIZE;
+        //appleX = random.nextInt((int) (SCREEN_WIDTH / UNIT_SIZE)) * UNIT_SIZE;
+        //appleY = random.nextInt((int) (SCREEN_HEIGHT / UNIT_SIZE)) * UNIT_SIZE;
     }
 
     public void checkApple() {
@@ -103,7 +104,7 @@ public class GamePanel extends JPanel implements Runnable {
 
 
 
-    @Override
+
     public void actionPerformed(ActionEvent e) {
 
         if (running) {
