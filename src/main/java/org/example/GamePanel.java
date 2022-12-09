@@ -15,7 +15,8 @@ public class GamePanel extends JPanel implements Runnable {
     static final int GAME_UNITS = (SCREEN_WIDTH * SCREEN_HEIGHT) / (UNIT_SIZE * UNIT_SIZE);
     final int x[] = new int[GAME_UNITS];
     final int y[] = new int[GAME_UNITS];
-    int bodyParts = 6;
+    Container container;
+    int bodyParts = container.getStartingLength();
     int applesEaten;
     int appleX;
     int appleY;
@@ -100,7 +101,7 @@ public class GamePanel extends JPanel implements Runnable {
 
     }
 
-}
+
 
     @Override
     public void actionPerformed(ActionEvent e) {

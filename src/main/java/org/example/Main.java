@@ -6,13 +6,12 @@ import java.awt.event.ActionListener;
 
 public class Main {
     public static void main (String[] args) {
-                GameWindow gameWindow = new GameWindow();
-            }
-        }
+        
 
         FormName menu = new FormName();
         menu.setVisible(true);
         menu.setSize(500,500);
 
     }
+
 }
