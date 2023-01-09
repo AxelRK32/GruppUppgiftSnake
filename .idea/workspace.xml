@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Highscore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FormName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GamePanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c91881c-c5cf-414f-8fd5-0694cf714550" name="Changes" comment="Added snake game" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,16 +47,106 @@
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "108",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "231",
-    "last_opened_file_path": "C:/Users/olive/IdeaProjects/Snake-master3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/olive/IdeaProjects/December5JavaMockingFunctionalInterfaces",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HighScoreTest.Scoreisover10">
     <configuration name="SnakeUppgift" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="SnakeUppgift" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeUppgift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.one_plus_two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeUppgift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="METHOD_NAME" value="one_plus_two" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.plus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeUppgift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="METHOD_NAME" value="plus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.two_plus_two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeUppgift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="METHOD_NAME" value="two_plus_two" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighScoreTest.Scoreisover10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeUppgift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.HighScoreTest" />
+      <option name="METHOD_NAME" value="Scoreisover10" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,6 +164,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HighScoreTest.Scoreisover10" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.plus" />
+        <item itemvalue="JUnit.CalculatorTest.one_plus_two" />
+        <item itemvalue="JUnit.CalculatorTest.two_plus_two" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,7 +213,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1669814396287</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Added snake game">
+      <created>1670616645053</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1670616645053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +239,12 @@
     <MESSAGE value="Added placeholder buttons and added exit functionality to quit button" />
     <MESSAGE value="Highscore board" />
     <MESSAGE value="Added Jframes for settings and game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Jframes for settings and game" />
+    <MESSAGE value="Added snake game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added snake game" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GruppUppgiftSnake$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1672933984902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
