@@ -4,11 +4,13 @@ public class Calculator {
     int num1 = 2;
     int num2 = 3;
 
-    private void setNum1(){
-        num1 = 5;
+    public void setNum1(int number){
+
+        num1 = number;
     }
-    private void setNum2(){
-        num2 = 10;
+    public void setNum2(int number){
+
+        num2 = number;
     }
 
     public int addition(){

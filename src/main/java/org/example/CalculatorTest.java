@@ -1,6 +1,6 @@
 package org.example;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -24,5 +24,25 @@ public class CalculatorTest {
     public void dividedby(){
         var calculator = new Calculator2();
         assertEquals(5,calculator.divide(25,5));
+    }
+    @Test
+    public void notNullTest(){
+        var calculator = new Calculator();
+        assertNotNull(calculator.addition());
+    }
+    @Test
+    public void subtractionTest(){
+        var calculator = new Calculator();
+        int result = -1;
+        assertEquals(result, calculator.subtraction());
+    }
+
+    @Test
+    public void changeNumberTest(){
+        var calculator = new Calculator();
+        calculator.setNum1(5);
+        assertEquals(5,calculator.num1);
+        calculator.setNum2(10);
+        assertEquals(10,calculator.num2);
     }
 }
