@@ -24,6 +24,7 @@ public class Settings extends JFrame {
         this.setContentPane(this.settings);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
+
         StartingLength.addItemListener(itemListener);
         StartingLength.addItem(lengthOptions);
 

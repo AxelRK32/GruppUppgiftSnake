@@ -17,6 +17,8 @@ public class FormName extends JFrame {
     public JButton highScoresButton;
     private JLabel userName;
     private JLabel userScore;
+    private JButton update;
+    private JButton kompletering;
 
     FormName formName;
     Container container = new Container();
@@ -65,6 +67,22 @@ public class FormName extends JFrame {
                 setVisible(false);
                 settings.setVisible(true);
                 settings.setSize(500, 500);
+            }
+        });
+        update.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                userName.setText(String.valueOf(container.getProfileName()));
+                userScore.setText(String.valueOf(container.getHighScore()));
+            }
+        });
+        kompletering.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Kompletering komp = new Kompletering(formName);
+                setVisible(false);
+                komp.setVisible(true);
+                komp.setSize(500, 500);
             }
         });
     }
