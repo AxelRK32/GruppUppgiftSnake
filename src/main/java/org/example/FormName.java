@@ -15,8 +15,11 @@ public class FormName extends JFrame {
     private JPanel PanelName;
     private JButton quitButton;
     public JButton highScoresButton;
+    private JLabel userName;
+    private JLabel userScore;
 
     FormName formName;
+    Container container = new Container();
 
     FormName() {
         super("Gruppuppgift Snake");
@@ -24,7 +27,12 @@ public class FormName extends JFrame {
         this.setContentPane(this.PanelName);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
-        highScoresButton.addActionListener(new ActionListener() {
+
+        userName.setText(String.valueOf(container.getProfileName()));
+        userScore.setText(String.valueOf(container.getHighScore()));
+        highScoresButton.addActionListener(new ActionListener()
+
+        {
             @Override
             public void actionPerformed(ActionEvent e) {
                 HighScore highScore = new HighScore(formName, highScoreList);
